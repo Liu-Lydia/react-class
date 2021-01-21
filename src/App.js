@@ -1,10 +1,18 @@
-import { useState } from 'react'
+import CountFunc from './components/CountFunc' //不用加副檔名.js
+import CountClass from './components/CountClass'
+import SelectBox from './components/SelectBox'
 
 function App() {
-  const [total, setTotal] = useState(0);
-
-  return <h1 onClick = {() => 
-  {setTotal(total+1)}}> {total} </h1>
+  return (
+    <>
+      <h2>函式型元件</h2>
+      <CountFunc />
+      <h2>類別型元件</h2>
+      <CountClass />
+      <br />
+      <SelectBox />
+    </>
+  )
 }
 
-export default App;
+export default App
