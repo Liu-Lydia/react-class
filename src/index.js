@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.scss'
-import App from './0127課程內容/拆成3個子元件/App'
+import App from './App'
 import reportWebVitals from './reportWebVitals'
 
 ReactDOM.render(
