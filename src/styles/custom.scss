@@ -1,11 +1,15 @@
-$primary:      #c79936;
-$secondary:     #A65478;
+$primary: #55c6da;
+$secondary: #a65478;
 
 // 導入bootstrap所有的樣式與預設變數
 @import '~bootstrap/scss/bootstrap.scss';
 
 // 其它要導入覆蓋掉原本的預設bootstrap樣式要放在這下面
 
-.alert-secondary {
-    color: #ff6600;
-  }
+main > .container{
+  padding: 60px 15px 0;
+}
+
+.footer{
+  background-color: #a2a5a6;
+}
